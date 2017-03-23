@@ -1,0 +1,8 @@
+<form action="/save" id="hdnJsonForm">
+    <input type="hidden" name="json1" id="jsonjson">
+</form>
+ 
+ In javascript you have to submit the form when the save link is clicked. You can acheive this by
+ $(document).on('click','#imageSave',function(){
+    $('#hdnJsonForm').submit();
+ });
